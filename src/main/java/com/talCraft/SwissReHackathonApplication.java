@@ -9,6 +9,6 @@ public class SwissReHackathonApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SwissReHackathonApplication.class, args);
-		TradeoffAnalytics analytics;
+
 	}
 }
