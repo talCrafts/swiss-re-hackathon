@@ -22,7 +22,7 @@ public class TradeoffAnalyticsServiceTest {
 	@Test
 	public void testTradeoffAnalyticsService(){
 		TradeoffAnalytics service = new TradeoffAnalytics();
-		service.setUsernameAndPassword("a630a7b2-4a7a-43b7-aabd-752b973a3220", "SX4n53k3JMWd");
+		service.setUsernameAndPassword("<username>", "<password>");
 
 		Problem problem = new Problem("phone");
 
