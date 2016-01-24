@@ -2,7 +2,7 @@ package com.bluemix.domain;
 
 import java.math.BigDecimal;
 
-public class QuestionAnswer {
+public class Questions {
 
 	private Question question;
 

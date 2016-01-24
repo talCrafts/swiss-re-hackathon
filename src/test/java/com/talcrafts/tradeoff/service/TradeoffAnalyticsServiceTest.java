@@ -1,4 +1,4 @@
-package com.talcrafts.tradeoff.service;
+package java.com.talcrafts.tradeoff.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;

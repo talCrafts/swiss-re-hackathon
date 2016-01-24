@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Categories>
+	<Category>
+		<CategoryName>Health</CategoryName>
+		<Questions>
+			<Question>
+				<QuestionText>Do you smoke or use any tobacco products?</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>Radio</AnswerType>
+					<Answer>
+						<AnswerText>Yes</AnswerText>
+						<AnswerWeight>90</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+					<Answer>
+						<AnswerText>No</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Have you gain or loss more than 10kg weight in last 3months because of?</QuestionText>
+				<QuestionWeight>20</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>CheckBox</AnswerType>
+					<Answer>
+						<AnswerText>Eating habbits</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+					<Answer>
+						<AnswerText>Disease</AnswerText>
+						<AnswerWeight>60</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+					<Answer>
+						<AnswerText>work or family tension</AnswerText>
+						<AnswerWeight>30</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+				</AnswerSet>
+			</Question>
+		</Questions>
+	</Category>
+	<Category>
+		<CategoryName>Financial</CategoryName>
+		<Questions>
+			<Question>
+				<QuestionText>What is your annual income?</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>Radio</AnswerType>
+					<Answer>
+						<AnswerText> less than 1000$ </AnswerText>
+						<AnswerWeight>50</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+					<Answer>
+						<AnswerText>between 1000$ and 10,000$</AnswerText>
+						<AnswerWeight>30</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+					<Answer>
+						<AnswerText>greater than 10,000$</AnswerText>
+						<AnswerWeight>20</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>How many salaried people are in your family?</QuestionText>
+				<QuestionWeight>20</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>Drop Down</AnswerType>
+					<Answer>
+						<AnswerText>1</AnswerText>
+						<AnswerWeight>70</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+					<Answer>
+						<AnswerText>2</AnswerText>
+						<AnswerWeight>20</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+					<Answer>
+						<AnswerText>3</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+						<IsSelected>false</IsSelected>
+					</Answer>
+				</AnswerSet>
+			</Question>
+		</Questions>
+	</Category>
+</Categories>

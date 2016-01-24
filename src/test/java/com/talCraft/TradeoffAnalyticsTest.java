@@ -1,4 +1,4 @@
-package com.talCraft;
+package java.com.talCraft;
 
 import java.util.ArrayList;
 import java.util.HashMap;

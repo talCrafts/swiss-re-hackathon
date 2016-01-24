@@ -1,47 +1,28 @@
 package com.bluemix.domain;
 
-import java.math.BigDecimal;
 import java.util.List;
+import javax.xml.bind.annotation.XmlElement;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
-@XmlRootElement(name = "category")
 public class Category {
+	
+	private String categoryName;
+	private List<Questions> questions;
 
-	private String name;
-	private String code;
-	private List<QuestionAnswer> questions;
-	private BigDecimal score;
-
-	public String getName() {
-		return name;
+	@XmlElement(name = "CategoryName")
+	public String getCategoryName() {
+		return categoryName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setCategoryName(String categoryName) {
+		this.categoryName = categoryName;
 	}
 
-	public String getCode() {
-		return code;
-	}
-
-	public void setCode(String code) {
-		this.code = code;
-	}
-
-	public List<QuestionAnswer> getQuestions() {
+	@XmlElement(name = "Questions")
+	public List<Questions> getQuestions() {
 		return questions;
 	}
 
-	public void setQuestions(List<QuestionAnswer> questions) {
+	public void setQuestions(List<Questions> questions) {
 		this.questions = questions;
-	}
-
-	public BigDecimal getScore() {
-		return score;
-	}
-
-	public void setScore(BigDecimal score) {
-		this.score = score;
 	}
 }

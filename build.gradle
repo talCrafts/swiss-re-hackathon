@@ -38,6 +38,7 @@ dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.7'
     compile 'com.ibm.watson.developer_cloud:java-sdk:2.6.0'
     compile 'org.springframework.boot:spring-boot-starter-web'
+	compile 'javax.xml.bind:jaxb-api:2.2.12'
 
 
     // We use the awesome Spock testing and specification framework

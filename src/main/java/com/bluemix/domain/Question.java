@@ -1,27 +1,33 @@
 package com.bluemix.domain;
 
-public class Question {
+import java.math.BigDecimal;
+import javax.xml.bind.annotation.XmlElement;
 
-	private String code;
-	private String text;
+public class Question {
+	
+	private String questionText;
+	private BigDecimal questionWeight;
 	private AnswerSet answerSet;
 
-	public String getCode() {
-		return code;
+	@XmlElement(name = "QuestionText")
+	public String getQuestionText() {
+		return questionText;
 	}
 
-	public void setCode(String code) {
-		this.code = code;
+	public void setQuestionText(String questionText) {
+		this.questionText = questionText;
 	}
 
-	public String getText() {
-		return text;
+	@XmlElement(name = "QuestionWeight")
+	public BigDecimal getQuestionWeight() {
+		return questionWeight;
 	}
 
-	public void setText(String text) {
-		this.text = text;
+	public void setQuestionWeight(BigDecimal questionWeight) {
+		this.questionWeight = questionWeight;
 	}
 
+	@XmlElement(name = "AnswerSet")
 	public AnswerSet getAnswerSet() {
 		return answerSet;
 	}
