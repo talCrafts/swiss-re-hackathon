@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Categories>
+	<Category>
+		<CategoryCode>PERSONAL</CategoryCode>
+		<CategoryName>Personal</CategoryName>
+		<Questions>
+			<Question>
+				<QuestionText>First Name</QuestionText>
+				<QuestionWeight>0</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Middle Name</QuestionText>
+				<QuestionWeight>0</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Middle Name</QuestionText>
+				<QuestionWeight>0</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>What is your age in years?</QuestionText>
+				<QuestionWeight>100</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>dropdown</AnswerType>
+					<Answer>
+						<AnswerText>between 18 to 30</AnswerText>
+						<AnswerWeight>70</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>between 31 to 40</AnswerText>
+						<AnswerWeight>20</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>between 41 to 50</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>between 51 to 60</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>between 61 to 70 years</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>between 71 to 80 years</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>above 80 years</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Gender</QuestionText>
+				<QuestionWeight>100</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>dropdown</AnswerType>
+					<Answer>
+						<AnswerText>Male</AnswerText>
+						<AnswerWeight>50</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Female</AnswerText>
+						<AnswerWeight>50</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>What is your occupation?</QuestionText>
+				<QuestionWeight>0</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Type of business?</QuestionText>
+				<QuestionWeight>0</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Annual Income</QuestionText>
+				<QuestionWeight>100</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>dropdown</AnswerType>
+					<Answer>
+						<AnswerText>less than 50,000</AnswerText>
+						<AnswerWeight>70</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Between 50,000 to 100,000</AnswerText>
+						<AnswerWeight>20</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Between 100,000 to 500,000</AnswerText>
+						<AnswerWeight>20</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Greater than 10,00,000</AnswerText>
+						<AnswerWeight>20</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+		</Questions>
+	</Category>
+	<Category>
+		<CategoryCode>HEALTH</CategoryCode>
+		<CategoryName>Health</CategoryName>
+		<Questions>
+			<Question>
+				<QuestionText>Do you smoke or use any tobacco products?
+				</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>radio</AnswerType>
+					<Answer>
+						<AnswerText>Yes</AnswerText>
+						<AnswerWeight>90</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>No</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Have you gain or loss more than 10kg weight in last
+					6months because of?
+				</QuestionText>
+				<QuestionWeight>20</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>checkbox</AnswerType>
+					<Answer>
+						<AnswerText>Eating habbits</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Disease</AnswerText>
+						<AnswerWeight>60</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Work or family tension</AnswerText>
+						<AnswerWeight>30</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Have you ever diagnosed or treated or hospitalized for
+				</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>checkbox</AnswerType>
+					<Answer>
+						<AnswerText>Heart Attack</AnswerText>
+						<AnswerWeight>90</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Angina</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Heart disorder or abnormality</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Diabetes or Sugar</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>HIV(AIDS)</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Cancer</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>None of the above</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Is any of your close relative or family member died
+					because of cancer or HIV(AIDS) or Neural Disease before age of 60?
+				</QuestionText>
+				<QuestionWeight>20</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>radio</AnswerType>
+					<Answer>
+						<AnswerText>Yes</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>No</AnswerText>
+						<AnswerWeight>60</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Do you have any of the following symptoms or disease
+				</QuestionText>
+				<QuestionWeight>20</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>checkbox</AnswerType>
+					<Answer>
+						<AnswerText>Dizziness</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Fainting</AnswerText>
+						<AnswerWeight>60</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Depression</AnswerText>
+						<AnswerWeight>60</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Bipolar Disorder</AnswerText>
+						<AnswerWeight>60</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Psychosis</AnswerText>
+						<AnswerWeight>60</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Suicidal tendencies</AnswerText>
+						<AnswerWeight>60</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+		</Questions>
+	</Category>
+	<Category>
+		<CategoryCode>FINANCIAL</CategoryCode>
+		<CategoryName>Financial</CategoryName>
+		<Questions>
+			<Question>
+				<QuestionText>Do you have mortgage?</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>radio</AnswerType>
+					<Answer>
+						<AnswerText>Yes</AnswerText>
+						<AnswerWeight>90</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>No</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>What is your risk tolerance?</QuestionText>
+				<QuestionWeight>20</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>dropdown</AnswerType>
+					<Answer>
+						<AnswerText>Conservative</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Aggressive</AnswerText>
+						<AnswerWeight>60</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Moderate</AnswerText>
+						<AnswerWeight>30</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Total liquid assets[cash, saving, life insurance,
+					annuities, shares]
+				</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Total non-liquid assets[value of home and other
+					properties, value of gold and other valueables]
+				</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Total Liabilities
+				</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Do think in future there will be drastic change in
+					your family expenses or in salary or in your assets or in your
+					medical expenses
+				</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>dropdown</AnswerType>
+					<Answer>
+						<AnswerText>Yes</AnswerText>
+						<AnswerWeight>90</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>No</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+		</Questions>
+	</Category>
+</Categories>
