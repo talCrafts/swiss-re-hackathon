@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Categories>
 	<Category>
+		<CategoryCode>PERSONAL</CategoryCode>
 		<CategoryName>Personal</CategoryName>
 		<Questions>
 			<Question>
@@ -66,11 +67,11 @@
 					<AnswerType>dropdown</AnswerType>
 					<Answer>
 						<AnswerText>Male</AnswerText>
-						<AnswerWeight>70</AnswerWeight>
+						<AnswerWeight>50</AnswerWeight>
 					</Answer>
 					<Answer>
 						<AnswerText>Female</AnswerText>
-						<AnswerWeight>20</AnswerWeight>
+						<AnswerWeight>50</AnswerWeight>
 					</Answer>
 				</AnswerSet>
 			</Question>
@@ -114,6 +115,7 @@
 		</Questions>
 	</Category>
 	<Category>
+		<CategoryCode>HEALTH</CategoryCode>
 		<CategoryName>Health</CategoryName>
 		<Questions>
 			<Question>
@@ -190,7 +192,8 @@
 				</AnswerSet>
 			</Question>
 			<Question>
-				<QuestionText>Is any of your close relative or family member died because of cancer or HIV(AIDS) or Neural Disease before age of 60?
+				<QuestionText>Is any of your close relative or family member died
+					because of cancer or HIV(AIDS) or Neural Disease before age of 60?
 				</QuestionText>
 				<QuestionWeight>20</QuestionWeight>
 				<AnswerSet>
@@ -234,6 +237,90 @@
 					<Answer>
 						<AnswerText>Suicidal tendencies</AnswerText>
 						<AnswerWeight>60</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+		</Questions>
+	</Category>
+	<Category>
+		<CategoryCode>FINANCIAL</CategoryCode>
+		<CategoryName>Financial</CategoryName>
+		<Questions>
+			<Question>
+				<QuestionText>Do you have mortgage?</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>radio</AnswerType>
+					<Answer>
+						<AnswerText>Yes</AnswerText>
+						<AnswerWeight>90</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>No</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>What is your risk tolerance?</QuestionText>
+				<QuestionWeight>20</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>dropdown</AnswerType>
+					<Answer>
+						<AnswerText>Conservative</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Aggressive</AnswerText>
+						<AnswerWeight>60</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>Moderate</AnswerText>
+						<AnswerWeight>30</AnswerWeight>
+					</Answer>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Total liquid assets[cash, saving, life insurance,
+					annuities, shares]
+				</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Total non-liquid assets[value of home and other
+					properties, value of gold and other valueables]
+				</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Total Liabilities
+				</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>free text</AnswerType>
+				</AnswerSet>
+			</Question>
+			<Question>
+				<QuestionText>Do think in future there will be drastic change in
+					your family expenses or in salary or in your assets or in your
+					medical expenses
+				</QuestionText>
+				<QuestionWeight>10</QuestionWeight>
+				<AnswerSet>
+					<AnswerType>dropdown</AnswerType>
+					<Answer>
+						<AnswerText>Yes</AnswerText>
+						<AnswerWeight>90</AnswerWeight>
+					</Answer>
+					<Answer>
+						<AnswerText>No</AnswerText>
+						<AnswerWeight>10</AnswerWeight>
 					</Answer>
 				</AnswerSet>
 			</Question>
