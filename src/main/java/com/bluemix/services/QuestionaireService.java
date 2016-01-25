@@ -1,5 +1,7 @@
 package com.bluemix.services;
 
+import javax.xml.bind.JAXBException;
+
 import com.bluemix.domain.Categories;
 import com.bluemix.domain.Category;
 import com.bluemix.domain.CategoryCode;

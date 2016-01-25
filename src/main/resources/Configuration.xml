@@ -19,7 +19,7 @@
 				</AnswerSet>
 			</Question>
 			<Question>
-				<QuestionText>Middle Name</QuestionText>
+				<QuestionText>Last Name</QuestionText>
 				<QuestionWeight>0</QuestionWeight>
 				<AnswerSet>
 					<AnswerType>free text</AnswerType>
