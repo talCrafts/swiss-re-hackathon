@@ -6,13 +6,13 @@
 		<Questions>
 			<Question>
 				<QuestionText>Do you smoke or use any tobacco products?</QuestionText>
-				<QuestionWeight>10</QuestionWeight>
+				<QuestionWeight>40</QuestionWeight>
 				<AnswerSet>
 					<AnswerType>Radio</AnswerType>
 					<Answer>
 						<AnswerText>Yes</AnswerText>
 						<AnswerWeight>90</AnswerWeight>
-						<IsSelected>false</IsSelected>
+						<IsSelected>true</IsSelected>
 					</Answer>
 					<Answer>
 						<AnswerText>No</AnswerText>
@@ -23,7 +23,7 @@
 			</Question>
 			<Question>
 				<QuestionText>Have you gain or loss more than 10kg weight in last 3months because of?</QuestionText>
-				<QuestionWeight>20</QuestionWeight>
+				<QuestionWeight>60</QuestionWeight>
 				<AnswerSet>
 					<AnswerType>CheckBox</AnswerType>
 					<Answer>
@@ -34,7 +34,7 @@
 					<Answer>
 						<AnswerText>Disease</AnswerText>
 						<AnswerWeight>60</AnswerWeight>
-						<IsSelected>false</IsSelected>
+						<IsSelected>true</IsSelected>
 					</Answer>
 					<Answer>
 						<AnswerText>work or family tension</AnswerText>
@@ -51,7 +51,7 @@
 		<Questions>
 			<Question>
 				<QuestionText>What is your annual income?</QuestionText>
-				<QuestionWeight>10</QuestionWeight>
+				<QuestionWeight>40</QuestionWeight>
 				<AnswerSet>
 					<AnswerType>Radio</AnswerType>
 					<Answer>
@@ -73,13 +73,13 @@
 			</Question>
 			<Question>
 				<QuestionText>How many salaried people are in your family?</QuestionText>
-				<QuestionWeight>20</QuestionWeight>
+				<QuestionWeight>60</QuestionWeight>
 				<AnswerSet>
 					<AnswerType>Drop Down</AnswerType>
 					<Answer>
 						<AnswerText>1</AnswerText>
 						<AnswerWeight>70</AnswerWeight>
-						<IsSelected>false</IsSelected>
+						<IsSelected>true</IsSelected>
 					</Answer>
 					<Answer>
 						<AnswerText>2</AnswerText>
