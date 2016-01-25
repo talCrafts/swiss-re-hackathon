@@ -1,13 +1,11 @@
 package com.bluemix.domain;
 
-import java.util.List;
-
 import javax.xml.bind.annotation.XmlElement;
 
 public class Category {
 	
 	private String categoryName;
-	private List<Question> questions;
+	private Questions questions;
 
 	@XmlElement(name = "CategoryName")
 	public String getCategoryName() {
@@ -19,11 +17,11 @@ public class Category {
 	}
 
 	@XmlElement(name = "Questions")
-	public List<Question> getQuestions() {
+	public Questions getQuestions() {
 		return questions;
 	}
 
-	public void setQuestions(List<Question> questions) {
+	public void setQuestions(Questions questions) {
 		this.questions = questions;
 	}
 }
