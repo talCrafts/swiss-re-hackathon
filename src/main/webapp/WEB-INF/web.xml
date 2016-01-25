@@ -19,6 +19,10 @@
 		<servlet-name>Faces Servlet</servlet-name>
 		<url-pattern>*.xhtml</url-pattern>
 	</servlet-mapping>
+	
+	<listener>
+        <listener-class>org.apache.myfaces.webapp.StartupServletContextListener</listener-class>
+    </listener>
 
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -27,5 +31,5 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath:application_context.xml</param-value>
 	</context-param>
-	
+
 </web-app>

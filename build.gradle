@@ -49,7 +49,6 @@ dependencies {
     testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
     testCompile 'junit:junit:4.11'
 	
-	compile 'org.glassfish:javax.faces:2.1.7'
 	compile 'org.primefaces:primefaces:5.3'
 	compile 'org.springframework:spring-web:4.2.4.RELEASE'
 }
