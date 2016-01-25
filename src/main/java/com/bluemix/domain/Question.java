@@ -4,7 +4,6 @@ import java.math.BigDecimal;
 import javax.xml.bind.annotation.XmlElement;
 
 public class Question {
-	
 	private String questionText;
 	private BigDecimal questionWeight;
 	private AnswerSet answerSet;
