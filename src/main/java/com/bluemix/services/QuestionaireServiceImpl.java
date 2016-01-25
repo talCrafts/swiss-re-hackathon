@@ -6,10 +6,13 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
+import org.springframework.stereotype.Service;
+
 import com.bluemix.domain.Categories;
 import com.bluemix.domain.Category;
 import com.bluemix.domain.CategoryCode;
 
+@Service
 public class QuestionaireServiceImpl implements QuestionaireService {
 
 	@Override
